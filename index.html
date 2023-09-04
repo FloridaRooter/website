@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Assets/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Abel&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Abel&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Abel&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Abel&family=Montserrat:wght@100;300&display=swap');
+
+        .navbar-top {
+            font-family: 'ABeeZee', Helvetica,Arial,Lucida,sans-serif !important;
+        }
+        .font-florida-rooter{
+            font-family: 'Abel', Helvetica,Arial,Lucida,sans-serif !important;
+        }
+        .font-montserrat{
+            font-family: 'Montserrat', sans-serif !important;
+           
+        }
+        .active-nav{
+            color: #fc6329;
+        }
+        .active-nav:hover{
+            color: #ff9670;
+        }
+        .font-color-florida-rooter{
+            color: #007483;
+        }
+        .inactive-nav{
+            color: #007483;
+        }
+        .inactive-nav:hover{
+            color: rgb(106, 158, 164);
+        }
+        .nav-fw{
+            font-weight: 200;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Florida Rooter</title>
+</head>
+<body>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Website Under Construction</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Please note that some pages or features may not be fully functional during this period of construction. We apologize for any inconvenience this may cause. 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- FIRST NAVBAR -->
+    <section class="bg-florida-rooter-blue navbar-top">
+        <div class="container">
+            <div class="ms-5 ps-5 py-1">  
+                <p class="navPhoneNum d-inline">
+                    <i class="fa-solid fa-phone fa-sm" style="color: #ffffff;"></i>
+                   <a class="text-decoration-none text-light" href="tel:+3523449153"><span class="text-light font-top-nav">(352) 344 - 9153</span></a>
+                </p>
+                <a href="mailto:info@floridarooter.com" class="ms-3 navPhoneNum d-inline text-decoration-none">
+                    <i class="fa-solid fa-envelope fa-sm" style="color: #ffffff;"></i>
+                    <span class="text-light font-top-nav">info@floridarooter.com</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECOND NAVBAR -->
+    <section>
+        <nav class="navbar navbar-expand-lg bg-body-light py-0">
+            <div class="container-lg py-0">
+              <a class="ms-md-5 ps-md-5 navbar-brand" href="#">
+                <img src="Assets/logo.png" class="img-fluid" alt="logo" width="104px">
+            </a>
+
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" style="font-size: 17px;" id="navbarNav">
+                <div class="navbar-nav ms-auto font-florida-rooter">
+
+           
+                    <a class="nav-link active-nav me-3" href="index.html">Home</a>
+
+      
+                    <a class="nav-link inactive-nav me-3" href="#" style="cursor: no-drop;">Drain Cleaning Services</a>
+
+      
+                    <a class="nav-link inactive-nav me-3" href="#" style="cursor: no-drop;">Drain Cleaning Service Areas</a>
+  
+                    <a class="nav-link inactive-nav me-3" href="#" style="cursor: no-drop;">Coupons</a>
+              
+                
+                    <a class="nav-link inactive-nav me-3" href="#" style="cursor: no-drop;">Reviews</a>
+                
+                  
+                    <a class="nav-link inactive-nav me-3" href="#" style="cursor: no-drop;">Contact</a>
+                 
+                  <!-- <li class="nav-item">
+                    <a class="nav-link inactive-nav me-3" href="#">Clogged Drain Blog</a>
+                  </li> -->
+                </div>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <!-- CAROUSEL -->
+    <section class="bg-florida-rooter-blue">
+            <div id="carouselExampleFade" class="carousel slide">
+                <div class="container">
+                <div class="carousel-inner">
+                <!-- CAROUSEL ITEM 1 -->
+                  <div class="carousel-item active">
+                    <div class="row d-flex justify-content-center justify-content-md-start text-center text-md-start">
+                        <div class="col-md-6 d-flex justify-content-center ms-5">
+                            <img src="Assets/florida-rooter-truck.png" class="py-md-4 img-fluid d-none d-md-block" alt="truck" width="410px">
+                        </div>
+                        <div class="col-8 col-md-5 text-light py-5 pt-md-5">
+                            <div class="h2" style="text-shadow: 0 1px 3px rgba(0,0,0,.3);">
+                                <span style="font-size: 46px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;">F</span><span style="font-size: 32px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;">LORIDA</span>
+
+                                <span class="ps-3" style="font-size: 46px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;">R</span><span style="font-size: 32px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;">OOTER</span>
+                            </div>
+                            <div style="text-shadow: 0 1px 3px rgba(0,0,0,.3);">
+                                <p>
+                                    <span style="font-family: 'Verdana'; font-size: 22px;">W</span><span style="font-family: 'Verdana'; font-size: 14px;">ITH OVER <span style="font-size: 22px;">25</span> YEARS OF EXPERIENCE GETTING THOUSANDS OF DRAINS CLEANED USING STATE OF THE ART DRAIN AND SEWER CLEANING EQUIPMENT, WE ARE SURE TO BE ABLE TO HANDLE ALL CLOGGED …</span>
+                                </p>
+                                <button type="button" class="btn btn-outline-light" style="cursor: no-drop;">Know More</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- CAROUSEL ITEM 2 -->
+                  <div class="carousel-item">
+                    <div class="row d-flex justify-content-center justify-content-md-start text-center text-md-start mb-4 mb-md-0 pb-2 pb-md-0">
+                        <div class="col-md-6 d-flex justify-content-center p-md-4 ms-5">
+                            <img src="Assets/logo.png" class="py-4 img-fluid d-none d-md-block" alt="truck" width="240px">
+                        </div>
+
+                        <div class="col-7 col-md-5 text-light pt-5">
+                            <div class="h2" style="text-shadow: 0 1px 3px rgba(0,0,0,.3);">
+                                <span style="font-size: 48px; font-family: Abel, Geneva, Tahoma, sans-serif;">D</span><span style="font-size: 30px; font-family: Abel, Geneva, Tahoma, sans-serif;">RAIN</span><span class="ps-3" style="font-size: 48px; font-family: Abel, Geneva, Tahoma, sans-serif;">C</span><span style="font-size: 30px; font-family: Abel, Geneva, Tahoma, sans-serif;">LEANING</span> <span class="ps-3" style="font-size: 48px; font-family: Abel, Geneva, Tahoma, sans-serif;">S</span><span style="font-size: 30px; font-family: Abel, Geneva, Tahoma, sans-serif;">ERVICES</span>
+                            </div>
+
+                            <div style="text-shadow: 0 1px 3px rgba(0,0,0,.3);">
+                                <p>
+                                    <span style="font-family: 'Verdana'; font-size: 20.5px;">F</span><span style="font-family: 'Verdana'; font-size: 14px;">LORIDA <span style="font-size: 20.5px;">R</span>OOTER PROVIDES DRAIN CLEANING SERVICES TO RESIDENTIAL, COMMERCIAL, INDUSTRIAL, AND MUNICIPAL ENTITIES. ARE AVAILABLE <span style="font-size: 20.5px;">24</span> HOURS A DAY, <span style="font-size: 20.5px;">7</span> DAYS A WEEK…</span>
+                                </p>
+                                <button type="button" class="btn btn-outline-light">Know More</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                <!-- CAROUSEL ITEM 3 -->
+                <div class="carousel-item">
+                    <div class="row d-flex justify-content-center justify-content-md-start text-center text-md-start mb-4 mb-md-0 pb-2 pb-md-0">
+                        <div class="col-md-6 d-flex justify-content-center p-md-4 ms-5">
+                            <img src="Assets/logo.png" class="py-4 img-fluid d-none d-md-block" alt="truck" width="240px">
+                        </div>
+
+                        <div class="col-7 col-md-5 text-light pt-5">
+                            <div class="h2" style="text-shadow: 0 1px 3px rgba(0,0,0,.3);">
+                                <span style="font-size: 45px; font-family: Abel, Geneva, Tahoma, sans-serif;">D</span><span style="font-size: 30px; font-family: Abel, Geneva, Tahoma, sans-serif;">RAIN</span><span class="ps-3" style="font-size: 45px; font-family: Abel, Geneva, Tahoma, sans-serif;">C</span><span style="font-size: 30px; font-family: Abel, Geneva, Tahoma, sans-serif;">LEANING</span> <span class="ps-3" style="font-size: 45px; font-family: Abel, Geneva, Tahoma, sans-serif;">S</span><span style="font-size: 30px; font-family: Abel, Geneva, Tahoma, sans-serif;">ERVICE</span><span class="ps-3" style="font-size: 45px; font-family: Abel, Geneva, Tahoma, sans-serif;">A</span><span style="font-size: 32px; font-family: Abel, Geneva, Tahoma, sans-serif;">REAS</span>
+                            </div>
+
+                            <div style="text-shadow: 0 1px 3px rgba(0,0,0,.3);">
+                                <p>
+                                    <span style="font-family: 'Verdana'; font-size: 22px;">F</span><span style="font-family: 'Verdana'; font-size: 14px;">LORIDA <span style="font-size: 22px;">R</span>OOTER SERVICES THE FOLLOWING CITIES AND TOWNS THROUGHOUT THE <span style="font-size: 22px;">V</span>ILLAGES, <span style="font-size: 22px;">L</span>AKE <span style="font-size: 22px;">C</span>OUNTY, AND <span style="font-size: 22px;">C</span>ITRUS <span style="font-size: 22px;"><span style="font-size: 22px;">C</span></span>OUNTY, AS WELL AS ANY SURROUNDING AREAS…</span>
+                                </p>
+                                <button type="button" class="btn btn-outline-light">Know More</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+              </div>
+        </div>
+    </section>
+
+    <!-- MAIN BODY -->
+    <section class="mt-4">
+        <div class="container-lg">
+
+            <!-- WELCOME TO FLORIDA ROOTER -->
+            <div class="display-6 font-color-florida-rooter text-center font-montserrat my-3">
+                W<span style="font-weight: 300; font-size: 25px;">ELCOME</span> T<span style="font-weight: 300; font-size: 25px;">O</span> F<span style="font-weight: 300; font-size: 25px;">LORIDA</span> R<span style="font-weight: 300; font-size: 25px;">OOTER</span>
+            </div>
+
+            <!-- PARAGRAPH CONTAINER -->
+            <div class="row d-flex justify-content-center">
+                <div class="col-10 col-md-7 mt-4">
+
+                    <!-- FIRST PARAGRAPH -->
+                    <div class="font-florida-rooter text-md-start text-center" style="font-size: 16px; color: #666666">
+                        <strong class="text-dark">Florida Rooter </strong>is your local licensed insured drain and sewer cleaning expert. Our prompt drain cleaning experts will arrive on time with all of the professional equipment and tools needed to repair your clogged drain efficiently. We offer same day service, so you do not have to wait for your lavatory or bath sink drain to be cleaned. We are available for all of your emergency clogged drain cleaning needs. Florida Rooter operates 24 hours a day / 7 days a week, so we can arrange a service time at your convenience.
+                    </div>
+
+                    <!-- SECOND PARAGRAPH -->
+                    <div class="row">
+                        <div class="col-7 col-md-9 mt-4">
+                            <h4 class="font-florida-rooter font-color-florida-rooter">Low Flat Rate Prices</h4>
+                            <div class="font-florida-rooter text-start" style="font-size: 16px; color: #666666">
+                                With our flat rate pricing, there are no hidden fees so you pay less and save money. Take a look at our coupons page for drain cleaning discounts and online specials. Also ask about our senior discount, as well as our multiple service and whole house discounts.
+                            </div>
+                        </div>
+                        <div class="col-5 col-md-3">
+                            <div class="d-flex mt-5 mt-md-0">
+                                <img class="ms-auto" src="Assets/clogged-main-drain-line.jpeg" alt="" width="150" height="140">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <img class="img-fluid" src="Assets/creditcards.png" alt="">
+                    </div>
+
+                    <!-- THIRD PARAGRAPH -->
+                    <div class="row mt-3">
+                        <h4 class="font-florida-rooter font-color-florida-rooter">We clean drains…</h4>
+                        <div class="col-5 col-md-3">
+                            <div class="mt-3 mt-md-0">
+                                <img class="mt-md-4" src="Assets/clogged-toilet-overflow.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-7 col-md-9 mt-3 ">
+                            <div class="font-florida-rooter text-start" style="font-size: 16px; color: #666666">
+                                Does the water in your kitchen sink drain slowly? When you flush your toilet, is there a backup in the shower or bath tub? When flushed, does your toilet overflow? All of these and similar problems result from one thing: clogged plumbing in your house, business, or office building.
+                            </div>
+                        </div>
+                    </div>
+                          <!-- THIRD PARAGRAPH -->
+                        <div class="font-florida-rooter text-md-start text-center mt-3" style="font-size: 16px; color: #666666">
+                            Fixing these stopped up pipes is what we specialize in. The stoppages that are plugging the drain pipes in your home must be repaired using professional drain clearing techniques. In many cases, the problem is caused by a clog in the main drain line. The main drain line, also referred to as a sewer line, is the pipe that all of the plumbing waste lines lead to.
+                        </div>
+
+                        <!-- FOURTH PARAGRAPH -->
+                        <div class="font-florida-rooter text-md-start text-center mt-3" style="font-size: 16px; color: #666666">
+                            This main line then leads to either a septic tank system or a city sewage system. Water gurgling in the toilet, and/or water backing up into the shower or tub when using water are sometimes indications of a clogged main drain line. When you have this or a similar problem, or any problem relating to clogged drains, call Florida Rooter. We have the experience, equipment and techniques needed to get the job done right.
+                        </div>
+
+                        <!-- FIFTH PARAGRAPH -->
+                        <h4 class="font-florida-rooter font-color-florida-rooter mt-4">…And get it done right</h4>
+                        <div class="font-florida-rooter text-md-start text-center" style="font-size: 16px; color: #666666">
+                            <strong class="text-dark">With over 25 years of experience</strong> getting thousands of drains cleaned using state of the art drain and sewer cleaning equipment, we are sure to be able to handle all of your clogged roof drains, plugged floor drains, stopped up garage drains, slow basement drains, and any other clogged drain clearing services you may need. We have the right tools for each job, so we can get the job done right, whether your problem requires a rooter or derooting machine, a drain snake, or one of the other tools we are equipped with. Our sewer and drain cleaning equipment will remove drain clogs and get your pipes cleaned thoroughly.
+                        </div>
+
+                        <!-- SIXTH PARAGRAPH / LIST -->
+                        <h4 class="font-florida-rooter font-color-florida-rooter mt-4">Clogged Drain Cleaning Services</h4>
+                        <div class="row">
+                            <div class="col-7 col-md-9">
+                                <ul class="font-florida-rooter text-md-start text-center" style="font-size: 16px; color: #666666">
+                                    <li>Drain cleaning</li>
+                                    <li>Drain clearing</li>
+                                    <li>Clogged drains</li>
+                                    <li>Plugged drains</li>
+                                    <li>Clogged toilet repair</li>
+                                    <li>Slow drains</li>
+                                    <li>Preventative maintenance</li>
+                                    <li>Emergency drain cleaning</li>
+                                    <li>Sewer drain cleaning</li>
+                                    <li>Dishwasher drains</li>
+                                    <li>Vents</li>
+                                    <li>Sanitation sinks</li>
+                                    <li>Mop sink drains</li>
+                                    <li>Motor home drains</li>
+                                    <li>All drain cleaning services</li>
+                                </ul>
+                            </div>
+                            <div class="col-5 col-md-3">
+                                <div class="d-flex mt-md-0">
+                                    <img class="ms-auto" src="Assets/clogged-bath-sink-drain.jpeg" alt="" width="150" height="140">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SEVENTH PARAGRAPH -->
+                        <h4 class="font-florida-rooter font-color-florida-rooter mt-4">Clogged Drains Cleaned in…</h4>
+                        <div class="font-florida-rooter text-md-start text-center" style="font-size: 16px; color: #666666">
+                            Florida Rooter is ideally located to serve Inverness, FL, Crystal River, FL, Leesburg, FL, Clermont, FL, The Villages, FL, and all surrounding areas. Call us for all of your Inverness, FL Drain Cleaning, Crystal River, FL Drain Cleaning, Leesburg, FL Drain Cleaning, Clermont, FL Drain Cleaning, and The Villages, FL Drain Cleaning service needs. If you have an Inverness, FL Clogged Drain, a Crystal River, FL Clogged Drain, a Leesburg, FL Clogged Drain, a Clermont, FL Clogged Drain, or a The Villages, FL Clogged Drain, call Florida Rooter. Whether your problem is big or small, we can take care of it. Also see our Drain Cleaning Service Areas page for a complete list of the areas that we serve.
+                        </div>
+
+                        <!-- EIGHTH PARAGRAPH -->
+                        <div class="row mt-3">
+                            <div class="col-7 col-md-9 mt-3 ">
+                                <h4 class="font-florida-rooter font-color-florida-rooter">Residential and Commercial</h4>
+                                <div class="font-florida-rooter text-start" style="font-size: 16px; color: #666666">
+                                    We provide residential and commercial, as well as industrial and municipal, drain and sewer clearing services. Whether it’s a clogged urinal at your business, the grease trap drain at your restaurant, or a blocked laundry washing machine drain in your mobile home, when the water stops flowing, we’ll get it going.
+                                </div>
+                            </div>
+                            <div class="col-5 col-md-3">
+                                <div class="mt-3 mt-md-0">
+                                    <img class="mt-md-4" src="Assets/clogged-toilet-overflow.jpeg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+
+                <div class="dividerBar d-none d-md-block col-md-1 mt-4">
+                </div>
+
+                
+                    <div class="col-md-3 mt-4 text-center">
+
+                        <h4 class="font-color-florida-rooter font-florida-rooter text-center">
+                            CALL FOR SERVICE 24 HOURS, <br>7 DAYS
+                        </h4>
+                        <img class="img-fluid" src="Assets/call_us.png" alt="phone numbers" width="217" height="244">
+
+                        <p class="font-florida-rooter my-3">
+                            All calls are answered promptly and professionally.
+                        </p>
+                        <p class="font-florida-rooter my-3">
+                            Additional information can be found on our contact page.
+                        </p>
+
+                        <h4 class="font-color-florida-rooter font-florida-rooter text-center mt-5">
+                            OUR SERVICES
+                        </h4>
+                        <p class="font-florida-rooter mt-2 mb-3">
+                            Basement drains | Bath sink drains |Bath tub drains | Dishwasher drains | Floor drains | Garage drains | Gutter drains | Kitchen sink drains | Laundry drains | Main drain lines | Mobile home drains | Motor home drains | Roof drains | Sanitation sinks | Sewer lines | Shower drains | Toilets | Urinals | Vents | Washing machine drains | Water closets | Any Plumbing Line
+                        </p>
+
+                        <h4 class="font-color-florida-rooter font-florida-rooter text-center mt-5">
+                            OUR SERVICES AREA
+                        </h4>
+                        <p class="font-florida-rooter mt-2 mb-3">
+                            Belleview, FL | Beverly Hills, FL | Brooksville, FL | Clermont, FL | Crystal River, FL | Dunnellon, FL | Eustis, FL | Floral City, FL | Fruitland Park, FL | Groveland, FL | Hernando, FL | Homosassa Springs, FL | Inverness, FL | Lady Lake, FL | Lecanto, FL | Leesburg, FL | Mount Dora, FL | Ocala, FL | Summerfield, FL | Tavares, FL | The Villages, FL | Umatilla, FL | Wildwood, FL
+                        </p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="bg-florida-rooter-blue mt-4">
+        <div class="d-flex justify-content-center py-3 font-florida-rooter text-light">
+            Copyright © 2012-2023 - Florida Rooter, All right reserved.
+        </div>
+    </section>
+
+<script src="app.js"></script>
+<script src="https://kit.fontawesome.com/05c09a2891.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Abel&display=swap');
+
+.navPhoneNum{
+    font-size: 12px;
+}
+
+.bg-florida-rooter-blue{
+    background-color: rgba(0,116,131,255);
+}
+
+.font-nav-top {
+  font-family: 'ABeeZee', Helvetica,Arial,Lucida,sans-serif !important;
+}
+.dividerBar{
+    border-left:0.1px solid #9f9f9f;height:1050px;
+    width: 0.1% !important;
+}
+img.alignright{
+    display: inline;
+    float: right;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 300px) {
+    .dividerBar {
+      display: none;
+    }
+  }
