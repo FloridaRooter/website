@@ -1,11 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Abel&family=Montserrat:wght@100;300&display=swap');
 
 .navPhoneNum{
     font-size: 12px;
 }
+.nav-font{
+  font-size: 17px;
+}
 
 .bg-florida-rooter-blue{
     background-color: rgba(0,116,131,255);
+}
+.bg-florida-rooter-white{
+  background-color: rgba(0,116,131,255);
+}
+
+/* CAROUSEL SECTION */
+
+.carousel-height{
+  max-height: 350px;
+  height: 100%;
+}
+.carousel-item{
+  height: 330px;
+}
+
+/* CAROUSEL ONE */
+.carousel-one-title-emphasize{
+  font-size: 46px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+}
+.carousel-one-title{
+  font-size: 32px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;
+}
+.carousel-one-paragraph-emphasize{
+  font-family: 'Verdana'; font-size: 22px;
+}
+.carousel-one-paragraph{
+  font-family: 'Verdana'; font-size: 14px;
+}
+
+/* CAROUSEL TWO */
+.carousel-two-title-emphasize{
+  font-size: 48px; font-family: Abel, Geneva, Tahoma, sans-serif
+}
+.carousel-two-title{
+  font-size: 30px; font-family: Abel, Geneva, Tahoma, sans-serif;
+}
+.carousel-two-paragraph-emphasize{
+  font-family: 'Verdana'; font-size: 20.5px;
+}
+.carousel-two-paragraph{
+  font-family: 'Verdana'; font-size: 14px;
+}
+
+/* CAROUSEL THREE */
+.carousel-three-title-emphasize{
+  font-size: 45px; font-family: Abel, Geneva, Tahoma, sans-serif;
+}
+.carousel-three-title{
+  font-size: 30px; font-family: Abel, Geneva, Tahoma, sans-serif;
+}
+.carousel-three-paragraph-emphasize{
+  font-family: 'Verdana'; font-size: 22px;
+}
+.carousel-three-paragraph{
+  font-family: 'Verdana'; font-size: 14px;
 }
 
 .font-nav-top {
@@ -15,10 +78,164 @@
     border-left:0.1px solid #9f9f9f;height:1050px;
     width: 0.1% !important;
 }
+
 img.alignright{
     display: inline;
     float: right;
     margin-left: 15px;
+}
+
+/***** LARGE DESKTOP VISIBILITY *****/
+@media (max-width: 1200px){
+  .nav-font{
+    font-size: 16px;
+  }
+.carousel-three-title-emphasize{
+  font-size: 32px; font-family: Abel, Geneva, Tahoma, sans-serif;
+}
+.carousel-three-title{
+  font-size: 26px; font-family: Abel, Geneva, Tahoma, sans-serif;
+}
+.carousel-three-paragraph-emphasize{
+  font-family: 'Verdana'; font-size: 18px;
+}
+.carousel-three-paragraph{
+  font-family: 'Verdana'; font-size: 14px;
+}
+}
+
+/***** DESKTOP VISIBILITY *****/
+@media (max-width: 992px){
+  .nav-font{
+    font-size: 16px;
+  }
+  .carousel-item{  /* CAROUSEL */
+    height: 290px;
+  }
+
+  .florida-rooter-truck{ /* CAROUSEL ONE */
+    height: 300px;
+    width: 340px;
+  }
+  .carousel-one-title-emphasize{
+    font-size: 30px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 600;
+  }
+  .carousel-one-title{
+    font-size: 25px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;
+  }
+  .carousel-one-paragraph-emphasize{
+    font-family: 'Verdana'; font-size: 16px;
+  }
+  .carousel-one-paragraph{
+    font-family: 'Verdana'; font-size: 11px;
+  }
+
+  .florida-rooter-logo{ /* CAROUSEL TWO */
+    height: 250px;
+    width: 200px;
+  }
+  .carousel-two-title-emphasize{
+    font-size: 30px;
+  }
+  .carousel-two-title{
+    font-size: 21px; 
+  }
+  .carousel-two-paragraph-emphasize{
+    font-size: 16px;
+  }
+  .carousel-two-paragraph{
+    font-size: 11px;
+  }
+
+  .carousel-three-title-emphasize{ /* CAROUSEL THREE */
+    font-size: 23px; font-family: Abel, Geneva, Tahoma, sans-serif;
+  }
+  .carousel-three-title{
+    font-size: 17px; font-family: Abel, Geneva, Tahoma, sans-serif;
+  }
+  .carousel-three-paragraph-emphasize{
+    font-family: 'Verdana'; font-size: 16px;
+  }
+  .carousel-three-paragraph{
+    font-family: 'Verdana'; font-size: 11px;
+  }
+}
+
+/***** TABLET VISIBILITY *****/
+@media (max-width: 768px){
+  .nav-font{
+    font-size: 16px;
+  }
+.carousel-item{
+  height: 410px;
+}
+
+.carousel-one-title-emphasize{ /* CAROUSEL ONE */
+  font-size: 46px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+}
+.carousel-one-title{
+  font-size: 32px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;
+}
+.carousel-one-paragraph-emphasize{
+  font-family: 'Verdana'; font-size: 22px;
+}
+.carousel-one-paragraph{
+  font-family: 'Verdana'; font-size: 14px;
+}
+
+
+.carousel-two-title-emphasize{ /* CAROUSEL TWO */
+  font-size: 48px; font-family: Abel, Geneva, Tahoma, sans-serif
+}
+.carousel-two-title{
+  font-size: 30px; font-family: Abel, Geneva, Tahoma, sans-serif;
+}
+.carousel-two-paragraph-emphasize{
+  font-family: 'Verdana'; font-size: 20.5px;
+}
+.carousel-two-paragraph{
+  font-family: 'Verdana'; font-size: 14px;
+}
+
+.carousel-three-title-emphasize{ /* CAROUSEL THREE */
+  font-size: 45px; font-family: Abel, Geneva, Tahoma, sans-serif;
+}
+.carousel-three-title{
+  font-size: 30px; font-family: Abel, Geneva, Tahoma, sans-serif;
+}
+.carousel-three-paragraph-emphasize{
+  font-family: 'Verdana'; font-size: 22px;
+}
+.carousel-three-paragraph{
+  font-family: 'Verdana'; font-size: 14px;
+}
+
+}
+
+
+/***** MOBILE PHONE VISIBILITY *****/
+@media (max-width: 576px){
+  .carousel-item{
+    height: 420px;
+  }
+  .carousel-one-title-emphasize{
+    font-size: 46px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 600;
+  }
+  .carousel-one-title{
+    font-size: 32px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;
+  }
+  .carousel-one-paragraph-emphasize{
+    font-family: 'Verdana'; font-size: 22px;
+  }
+  .carousel-one-paragraph{
+    font-family: 'Verdana'; font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 300px) {
@@ -26,3 +243,4 @@ img.alignright{
       display: none;
     }
   }
+
