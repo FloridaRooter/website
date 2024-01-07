@@ -220,7 +220,7 @@ img.alignright{
 /***** MOBILE PHONE VISIBILITY *****/
 @media (max-width: 576px){
   .carousel-item{
-    height: 420px;
+    height: 460px;
   }
   .carousel-one-title-emphasize{
     font-size: 46px;
@@ -240,7 +240,7 @@ img.alignright{
 
 @media only screen and (max-width: 400px) {
   .carousel-item{
-    height: 450px;
+    height: 500px;
   }
 }
 
