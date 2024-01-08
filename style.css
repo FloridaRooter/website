@@ -17,6 +17,22 @@
   background-color: rgba(0,116,131,255);
 }
 
+/* ACCORDION SECTION */
+.accordion{
+  --bs-accordion-btn-bg: #f4f4f4;
+  --bs-accordion-active-bg: white;
+  --bs-accordion-active-color: #808080;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-bg: white;
+  --bs-accordion-color: #808080;
+}
+
+.accordion-button:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+  border-color: rgba(0,0,0,0) !important;
+}
+
 /* CAROUSEL SECTION */
 
 .carousel-height{
