@@ -10,8 +10,11 @@
   font-size: 17px;
 }
 
-.bg-florida-rooter-blue{
+.bg-florida-rooter-blue {
     background-color: rgba(0,116,131,255);
+}
+.bg-florida-rooter-darker-blue {
+    background-color: rgba(17,88,99,255);
 }
 .bg-florida-rooter-white{
   background-color: rgba(0,116,131,255);
@@ -31,6 +34,35 @@
   outline: 0 !important;
   box-shadow: none !important;
   border-color: rgba(0,0,0,0) !important;
+}
+
+.florida-rooter-colored-button {
+  background-color: #007483 !important;
+  border: none;
+  color: white;
+  font-family: 24px ;
+  border-radius: 5px;
+}
+
+.florida-rooter-colored-button:hover {
+  background-color: #006775 !important;
+}
+
+/* DIVIDER */
+.triangle-divider-one {
+  width: 100%;
+  /* height: 4vh; */
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.triangle-divider-two {
+  width: 100%;
+  margin-top: 1px;
+
+  top: 0;
+  left: 0;
 }
 
 /* CAROUSEL SECTION */
